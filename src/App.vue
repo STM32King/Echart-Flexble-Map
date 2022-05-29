@@ -1,6 +1,5 @@
 <template>
   <div id="app">
-    <HelloWorld msg="Welcome to Your Vue.js App" />
     <div class="header">
       <h1>数据可视化大屏-ECharts</h1>
       <div class="showTime"></div>
@@ -63,7 +62,6 @@
 </template>
 
 <script>
-import HelloWorld from "./components/HelloWorld.vue";
 import OneBar from "./components/OneBar.vue";
 import TwoLine from "./components/TwoLine.vue";
 import ThreePie from "./components/ThreePie.vue";
@@ -75,7 +73,6 @@ import SevenMap from "./components/SevenMap.vue";
 export default {
   name: "App",
   components: {
-    HelloWorld,
     OneBar,
     TwoLine,
     ThreePie,
